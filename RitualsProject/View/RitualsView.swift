@@ -288,6 +288,9 @@ extension RitualsView: UITableViewDataSource{
                 let testImage = URL(string: "https://goldmedalblob.blob.core.windows.net/goldappdata/goldapp/base/rituals/amenitiesmaster/\(details.pinimages ?? "")")
                 cell.imageRecieved.kf.setImage(with: testImage)
             }
+            else{
+                return UITableViewCell()
+            }
             
         case 2:
             if details.pintype == "2" || details.pintype == "Events"{
@@ -300,19 +303,25 @@ extension RitualsView: UITableViewDataSource{
                 let testImage = URL(string: "https://goldmedalblob.blob.core.windows.net/goldappdata/goldapp/base/rituals/amenitiesmaster/\(details.pinimages ?? "")")
                 cell.imageRecieved.kf.setImage(with: testImage)
             }
+            else{
+                return UITableViewCell()
+            }
             
         default:
             break
         }
         return cell
-        
     }
     
     
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         switch segmentControl.selectedSegmentIndex {
-        case 0,1,2:
+        case 0:
+            return searching ? filteredDetails.count : detailsPair.count
+        case 1:
+            return searching ? filteredDetails.count : detailsPair.count
+        case 2:
             return searching ? filteredDetails.count : detailsPair.count
         default:
             break
