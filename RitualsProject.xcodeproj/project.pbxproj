@@ -9,21 +9,36 @@
 /* Begin PBXBuildFile section */
 		69D738E72B6B5E3E00B49370 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D738E62B6B5E3E00B49370 /* AppDelegate.swift */; };
 		69D738E92B6B5E3E00B49370 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D738E82B6B5E3E00B49370 /* SceneDelegate.swift */; };
-		69D738EB2B6B5E3E00B49370 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D738EA2B6B5E3E00B49370 /* ViewController.swift */; };
 		69D738EE2B6B5E3E00B49370 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D738EC2B6B5E3E00B49370 /* Main.storyboard */; };
 		69D738F02B6B5E4000B49370 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69D738EF2B6B5E4000B49370 /* Assets.xcassets */; };
 		69D738F32B6B5E4000B49370 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69D738F12B6B5E4000B49370 /* LaunchScreen.storyboard */; };
+		69D738FF2B6B5E7900B49370 /* DetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D738FC2B6B5E7900B49370 /* DetailsCell.swift */; };
+		69D739002B6B5E7900B49370 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D738FD2B6B5E7900B49370 /* AlertViewController.swift */; };
+		69D739012B6B5E7900B49370 /* RitualsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D738FE2B6B5E7900B49370 /* RitualsView.swift */; };
+		69D739042B6B5EC000B49370 /* DetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69D739032B6B5EC000B49370 /* DetailsCell.xib */; };
+		69D739062B6B5ED700B49370 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D739052B6B5ED700B49370 /* Constants.swift */; };
+		69D739092B6B5EE100B49370 /* APIDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 69D739072B6B5EE100B49370 /* APIDataModel.xcdatamodeld */; };
+		69D7390C2B6B5F2800B49370 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 69D7390B2B6B5F2800B49370 /* Kingfisher */; };
+		69D7390E2B6B5FAA00B49370 /* DetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D7390D2B6B5FAA00B49370 /* DetailsModel.swift */; };
+		69D739102B6B5FAC00B49370 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69D7390F2B6B5FAC00B49370 /* UserData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		69D738E32B6B5E3E00B49370 /* RitualsProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RitualsProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69D738E62B6B5E3E00B49370 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69D738E82B6B5E3E00B49370 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		69D738EA2B6B5E3E00B49370 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		69D738ED2B6B5E3E00B49370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		69D738EF2B6B5E4000B49370 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69D738F22B6B5E4000B49370 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69D738F42B6B5E4000B49370 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69D738FC2B6B5E7900B49370 /* DetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsCell.swift; sourceTree = "<group>"; };
+		69D738FD2B6B5E7900B49370 /* AlertViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		69D738FE2B6B5E7900B49370 /* RitualsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RitualsView.swift; sourceTree = "<group>"; };
+		69D739032B6B5EC000B49370 /* DetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailsCell.xib; sourceTree = "<group>"; };
+		69D739052B6B5ED700B49370 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		69D739082B6B5EE100B49370 /* APIDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = APIDataModel.xcdatamodel; sourceTree = "<group>"; };
+		69D7390D2B6B5FAA00B49370 /* DetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsModel.swift; sourceTree = "<group>"; };
+		69D7390F2B6B5FAC00B49370 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69D7390C2B6B5F2800B49370 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +56,7 @@
 		69D738DA2B6B5E3E00B49370 = {
 			isa = PBXGroup;
 			children = (
+				69D739072B6B5EE100B49370 /* APIDataModel.xcdatamodeld */,
 				69D738E52B6B5E3E00B49370 /* RitualsProject */,
 				69D738E42B6B5E3E00B49370 /* Products */,
 			);
@@ -58,13 +75,35 @@
 			children = (
 				69D738E62B6B5E3E00B49370 /* AppDelegate.swift */,
 				69D738E82B6B5E3E00B49370 /* SceneDelegate.swift */,
-				69D738EA2B6B5E3E00B49370 /* ViewController.swift */,
-				69D738EC2B6B5E3E00B49370 /* Main.storyboard */,
+				69D739112B6B5FB300B49370 /* Model */,
+				69D739022B6B5E8200B49370 /* View */,
 				69D738EF2B6B5E4000B49370 /* Assets.xcassets */,
 				69D738F12B6B5E4000B49370 /* LaunchScreen.storyboard */,
 				69D738F42B6B5E4000B49370 /* Info.plist */,
+				69D739052B6B5ED700B49370 /* Constants.swift */,
 			);
 			path = RitualsProject;
+			sourceTree = "<group>";
+		};
+		69D739022B6B5E8200B49370 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				69D738EC2B6B5E3E00B49370 /* Main.storyboard */,
+				69D738FD2B6B5E7900B49370 /* AlertViewController.swift */,
+				69D738FC2B6B5E7900B49370 /* DetailsCell.swift */,
+				69D738FE2B6B5E7900B49370 /* RitualsView.swift */,
+				69D739032B6B5EC000B49370 /* DetailsCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		69D739112B6B5FB300B49370 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				69D7390D2B6B5FAA00B49370 /* DetailsModel.swift */,
+				69D7390F2B6B5FAC00B49370 /* UserData.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +122,9 @@
 			dependencies = (
 			);
 			name = RitualsProject;
+			packageProductDependencies = (
+				69D7390B2B6B5F2800B49370 /* Kingfisher */,
+			);
 			productName = RitualsProject;
 			productReference = 69D738E32B6B5E3E00B49370 /* RitualsProject.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +153,9 @@
 				Base,
 			);
 			mainGroup = 69D738DA2B6B5E3E00B49370;
+			packageReferences = (
+				69D7390A2B6B5F2800B49370 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 69D738E42B6B5E3E00B49370 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +172,7 @@
 			files = (
 				69D738F32B6B5E4000B49370 /* LaunchScreen.storyboard in Resources */,
 				69D738F02B6B5E4000B49370 /* Assets.xcassets in Resources */,
+				69D739042B6B5EC000B49370 /* DetailsCell.xib in Resources */,
 				69D738EE2B6B5E3E00B49370 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +184,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69D738EB2B6B5E3E00B49370 /* ViewController.swift in Sources */,
 				69D738E72B6B5E3E00B49370 /* AppDelegate.swift in Sources */,
+				69D738FF2B6B5E7900B49370 /* DetailsCell.swift in Sources */,
+				69D739012B6B5E7900B49370 /* RitualsView.swift in Sources */,
+				69D739102B6B5FAC00B49370 /* UserData.swift in Sources */,
+				69D739092B6B5EE100B49370 /* APIDataModel.xcdatamodeld in Sources */,
+				69D7390E2B6B5FAA00B49370 /* DetailsModel.swift in Sources */,
+				69D739002B6B5E7900B49370 /* AlertViewController.swift in Sources */,
 				69D738E92B6B5E3E00B49370 /* SceneDelegate.swift in Sources */,
+				69D739062B6B5ED700B49370 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +410,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		69D7390A2B6B5F2800B49370 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		69D7390B2B6B5F2800B49370 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 69D7390A2B6B5F2800B49370 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		69D739072B6B5EE100B49370 /* APIDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				69D739082B6B5EE100B49370 /* APIDataModel.xcdatamodel */,
+			);
+			currentVersion = 69D739082B6B5EE100B49370 /* APIDataModel.xcdatamodel */;
+			path = APIDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 69D738DB2B6B5E3E00B49370 /* Project object */;
 }
